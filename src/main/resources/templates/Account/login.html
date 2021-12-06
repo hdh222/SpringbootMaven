@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        alert("로그인됨");
+    </script>
+</head>
+<body>
+<th:block th:if="${id != null}">
+    <p><span th:text="${id}"></span>님 로그인중..</p>
+</th:block>
+</body>
+</html>
